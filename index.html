@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <fieldset>
+
+            <legend><h2>Student Registration Form</h2></legend>
+
+        <form>
+            <input type="text" placeholder="Enter name" name="username" required /> <br /> <br />
+            <input type="email" placeholder="Enter email" name="email" required /> <br /> <br />
+            <input type="date" name="dob" required /> <br /> <br />
+            <input type="color" name="color"><br /> <br />
+
+
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label><br /> <br />
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+
+            <br /> <br />
+            <textarea name="message" placeholder="Enter message here" rows="10" cols="60"></textarea>
+            <br /> <br />
+
+            <button type="submit">Submit</button>
+            <button type="button">Button</button>
+            <button type="reset">Reset</button>
+        </form>
+    </fieldset>
 </body>
+
 </html>
